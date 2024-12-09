@@ -98,10 +98,10 @@
 
     Show
     BaseType "Flask"
-    SetFontSize 30
+    SetFontSize 25
     #SetTextColor 255 255 255 180 #Don't change text color as it will interfere with rarity (White Text vs Blue Text)
-    SetBorderColor 255 255 255 180
-    SetBackgroundColor 25 100 75 200
+    SetBorderColor 255 255 255 120
+    SetBackgroundColor 28 81 46 155
 
 #=====================
 #Rune
