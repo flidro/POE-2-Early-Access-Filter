@@ -2,7 +2,13 @@
 # Author: Flidro#2319
 # Discord: Flidro
 # =)
+# Change as you need.
+# Colors are R G B (0-255)
+# To include alpha channel, it's R G B A
+# Alpha percentage multiplied by 255 to get Alpha value (0.7 * 255 = 179)
 #=====================
+
+
 
 #=====================
 #Gold
@@ -23,7 +29,7 @@
     SetBorderColor 0 0 0
     SetBackgroundColor 176 12 12
 
-    Show
+    Show #Higher tiered currency. Not complete list
     Class Currency
     BaseType "Exalted Orb" "Chaos Orb" "Glassblower's Bauble" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Lesser Jeweller's Orb" "Artificer's Orb"
     SetFontSize 35
@@ -32,7 +38,7 @@
     SetBackgroundColor 115 0 255
     PlayAlertSound 3 150
 
-    Show
+    Show #Essence
     Class Currency
     BaseType "Essence"
     SetFontSize 35
@@ -41,7 +47,7 @@
     SetBackgroundColor 122 166 255 160
 
 
-    Show #Catch all
+    Show #Catch all currency
     Class Currency
     SetFontSize 30
     SetTextColor 0 0 0
@@ -65,14 +71,14 @@
     Show
     BaseType "Charm"
     SetFontSize 30
-    #SetTextColor 0 240 190
+    #SetTextColor 0 240 190 #Don't change text color as it will interfere with rarity (White Text vs Blue Text)
     SetBorderColor 0 240 190
     SetBackgroundColor 20 20 0
 
     Show
     BaseType "Flask"
     SetFontSize 30
-    #SetTextColor 255 255 255 180
+    #SetTextColor 255 255 255 180 #Don't change text color as it will interfere with rarity (White Text vs Blue Text)
     SetBorderColor 255 255 255 180
     SetBackgroundColor 25 100 75 200
 
@@ -104,11 +110,11 @@
 
 
 #=====================
-#Maps
+#Jewellery
 #=====================
     Show
     Class Ring Amulet Belt
     SetFontSize 30
-    #SetTextColor 255 255 255
+    #SetTextColor 255 255 255 #Don't change text color as it will interfere with rarity (White Text vs Blue Text)
     SetBorderColor 255 125 0 215
-    #SetBackgroundColor 70 70 70
+    #SetBackgroundColor 70 70 70 #Don't change border of default item behavior
