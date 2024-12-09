@@ -58,14 +58,21 @@
     SetBackgroundColor 115 0 255
 
 #=====================
-#Quality Items
+#Quality Items and Sockets
 #=====================
-    Show
+    Show #Quantity above zero
     Quality > 0
     SetFontSize 35
     SetBorderColor 0 200 250
     MinimapIcon 1 Blue Diamond
     PlayEffect Blue Temp
+
+    Show #Sockets greater than zero
+    Sockets > 0
+    SetFontSize 35
+    SetBackgroundColor 77 77 77
+    MinimapIcon 1 White Diamond
+    PlayEffect White Temp
 
 
 
