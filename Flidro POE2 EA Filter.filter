@@ -3,6 +3,9 @@
 # Discord: Flidro
 # =)
 # Change as you need.
+#
+# https://www.poewiki.net/wiki/Guide:Item_filter_guide
+#
 # Colors are R G B (0-255)
 # To include alpha channel, it's R G B A
 # Alpha percentage multiplied by 255 to get Alpha value (0.7 * 255 = 179)
@@ -53,6 +56,17 @@
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
     SetBackgroundColor 115 0 255
+
+#=====================
+#Quality Items
+#=====================
+    Show
+    Quality > 0
+    SetFontSize 35
+    SetBorderColor 0 200 250
+    MinimapIcon 1 Blue Diamond
+    PlayEffect Blue Temp
+
 
 
 #=====================
@@ -107,6 +121,16 @@
     #SetTextColor 255 255 255
     #SetBorderColor 255 255 255
     SetBackgroundColor 0 0 204
+
+#=====================
+#Sanctum and Ultimatum
+#=====================
+    Show
+    BaseType "Djinn Barya" "Inscribed Ultimatum"
+    SetFontSize 35
+    SetBorderColor 163 53 238
+    SetTextColor 163 53 238
+    MinimapIcon 1 Yellow UpsideDownHouse
 
 
 #=====================
