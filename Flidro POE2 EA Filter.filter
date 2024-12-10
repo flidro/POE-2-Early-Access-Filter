@@ -143,9 +143,17 @@
 #=====================
 #Jewellery
 #=====================
-    Show
+    Show #Rare Jewellery. Gong sound
+    Class Ring Amulet Belt
+    Rarity Rare
+    SetFontSize 35
+    SetBorderColor 255 125 0 255
+    PlayAlertSound 1 150
+
+
+    Show #Default Jewellery behavior. Orange border
     Class Ring Amulet Belt
     SetFontSize 30
     #SetTextColor 255 255 255 #Don't change text color as it will interfere with rarity (White Text vs Blue Text)
-    SetBorderColor 255 125 0 215
+    SetBorderColor 255 125 0
     #SetBackgroundColor 70 70 70 #Don't change border of default item behavior
