@@ -32,7 +32,21 @@
     SetBorderColor 0 0 0
     SetBackgroundColor 176 12 12
 
-    Show #Higher tiered currency. Not complete list
+
+    ##############  S Tier - Tink
+    Show
+    Class Currency
+    BaseType "Mirror of Kalandra" "Perfect Jeweller's Orb"
+    SetFontSize 35
+    SetTextColor 85 0 255
+    SetBorderColor 85 0 255
+    SetBackgroundColor 255 255 255
+    PlayAlertSound 6 150 #Tink
+    MinimapIcon 0 Red Star
+    PlayEffect Red
+
+    ##############  A Tier
+    Show
     Class Currency
     BaseType "Exalted Orb" "Chaos Orb" "Glassblower's Bauble" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Jeweller's Orb" "Artificer's Orb" "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
     SetFontSize 35
@@ -83,7 +97,8 @@
     Show #Sockets greater than zero
     Sockets > 0
     SetFontSize 35
-    SetBackgroundColor 77 77 77
+    SetBackgroundColor 73 92 91
+    SetBorderColor 200 200 200
     MinimapIcon 1 White Diamond
     PlayEffect White Temp
 
