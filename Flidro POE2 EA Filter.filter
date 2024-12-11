@@ -131,16 +131,14 @@
     Show
     BaseType "Waystone"
     SetFontSize 30
-    SetTextColor 255 255 255
     SetBorderColor 255 255 255
     SetBackgroundColor 70 70 70
+    MinimapIcon 1 White Square
     PlayEffect White
 
     Show
     BaseType "Tablet"
     SetFontSize 30
-    #SetTextColor 255 255 255
-    #SetBorderColor 255 255 255
     SetBackgroundColor 0 0 204
 
 #=====================
