@@ -34,7 +34,7 @@
 
     Show #Higher tiered currency. Not complete list
     Class Currency
-    BaseType "Exalted Orb" "Chaos Orb" "Glassblower's Bauble" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Lesser Jeweller's Orb" "Artificer's Orb"
+    BaseType "Exalted Orb" "Chaos Orb" "Glassblower's Bauble" "Regal Orb" "Orb of Alchemy" "Vaal Orb" "Jeweller's Orb" "Artificer's Orb" "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
     SetFontSize 35
     SetTextColor 255 255 255
     SetBorderColor 255 255 255
@@ -56,6 +56,19 @@
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
     SetBackgroundColor 115 0 255
+
+#=====================
+#Armour and Weapons
+#=====================
+    Show #Advanced Armor and Weapons
+    BaseType "Advanced"
+    SetFontSize 30
+    SetBackgroundColor 45 45 45
+
+    Show #Advanced Armor and Weapons
+    BaseType "Expert"
+    SetFontSize 30
+    SetBackgroundColor 100 100 100
 
 #=====================
 #Quality Items and Sockets
@@ -121,6 +134,7 @@
     SetTextColor 255 255 255
     SetBorderColor 255 255 255
     SetBackgroundColor 70 70 70
+    PlayEffect White
 
     Show
     BaseType "Tablet"
@@ -141,7 +155,7 @@
 
 
 #=====================
-#Jewellery
+#Jewellery & Jewels
 #=====================
     Show #Rare Jewellery. Gong sound
     Class Ring Amulet Belt
@@ -157,3 +171,10 @@
     #SetTextColor 255 255 255 #Don't change text color as it will interfere with rarity (White Text vs Blue Text)
     SetBorderColor 255 125 0
     #SetBackgroundColor 70 70 70 #Don't change border of default item behavior
+
+    Show #Default Jewels
+    Class Jewel
+    SetFontSize 35
+    SetBorderColor 255 255 0
+    PlayEffect Yellow Temp
+
