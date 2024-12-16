@@ -55,6 +55,16 @@
     SetBackgroundColor 115 0 255
     PlayAlertSound 3 150
 
+
+    Show #Greater Essence
+    Class Currency
+    BaseType "Greater Essence"
+    SetFontSize 35
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 115 0 255
+
+
     Show #Essence
     Class Currency
     BaseType "Essence"
