@@ -213,10 +213,10 @@
     SetBackgroundColor 0 0 204
 
 #=====================
-#Sanctum and Ultimatum
+#Sanctum, Ultimatum, and Expedition Logbooks
 #=====================
     Show
-    BaseType "Djinn Barya" "Inscribed Ultimatum"
+    BaseType "Djinn Barya" "Inscribed Ultimatum" "Expedition Logbook"
     SetFontSize 35
     SetBorderColor 163 53 238
     SetTextColor 163 53 238
