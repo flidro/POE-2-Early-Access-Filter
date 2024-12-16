@@ -1,5 +1,6 @@
 # POE-2-Early-Access-Filter
 Quick and dirty POE 2 Early Access Filter
+Hides Flasks below Ultimate in maps+ (AreaLevel >= 65)
 
 
 
@@ -12,7 +13,7 @@ Gold and Flask appearances
 
 ![image](https://github.com/user-attachments/assets/3b3b4545-41e4-485e-9d35-e9350a00bb46)
 
-Items with QUality, items with sockets, Skill Gem
+Items with Quality, items with sockets, Skill Gem
 
 ![image](https://github.com/user-attachments/assets/121fa9c9-d597-4f3a-a91b-07f135126888)
 
