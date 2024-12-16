@@ -32,6 +32,7 @@
     SetBackgroundColor 20 20 0
 
 
+
     ##############  S Tier - Tink
     Show
     Class Currency
@@ -73,6 +74,14 @@
 #=====================
 #Armour and Weapons
 #=====================
+
+    #Best Caster Expert ES Bases
+    Show
+    BaseType == "Expert Intricate Gloves" "Expert Hexer's Robe" "Expert Feathered Sandals" "Expert Feathered Tiara"
+    SetFontSize 35
+    SetBorderColor 50 50 150
+    SetBackgroundColor 43 43 100 205
+
     Show #Advanced Armor and Weapons
     BaseType "Advanced"
     SetFontSize 30
@@ -82,6 +91,69 @@
     BaseType "Expert"
     SetFontSize 30
     SetBackgroundColor 100 100 100
+
+#=====================
+#Flasks and Charms
+#=====================
+    Show
+    BaseType "Charm"
+    SetFontSize 30
+    SetBorderColor 0 240 190
+    SetBackgroundColor 20 20 0
+
+    Show #Quality High-end Flasks 20+
+    Class == "Life Flasks" "Mana Flasks"
+    BaseType "Ultimate"
+    AreaLevel >= 65
+    Quality >= 20
+    SetFontSize 40
+    SetBorderColor 0 240 190
+    SetBackgroundColor 55 90 70 225
+    MinimapIcon 0 Blue Diamond
+    PlayAlertSound 3 150
+    PlayEffect Blue
+
+    Show #Quality High-end Flasks 15+
+    Class == "Life Flasks" "Mana Flasks"
+    BaseType "Ultimate"
+    AreaLevel >= 65
+    Quality >= 15
+    SetFontSize 35
+    SetBorderColor 0 240 190
+    SetBackgroundColor 28 55 55 225
+    MinimapIcon 1 Blue Diamond
+    PlayAlertSound 3 100
+
+    Show
+    Class == "Life Flasks" "Mana Flasks"
+    BaseType "Ultimate"
+    Quality > 0
+    AreaLevel >= 65
+    SetFontSize 30
+    SetBorderColor 0 240 190
+    SetBackgroundColor 28 81 46 200
+
+    Show
+    Class == "Life Flasks" "Mana Flasks"
+    BaseType "Ultimate"
+    AreaLevel >= 65
+    SetFontSize 25
+    SetBorderColor 255 255 255 120
+    SetBackgroundColor 28 81 46 155
+
+    Hide
+    Class == "Life Flasks" "Mana Flasks"
+    BaseType "Greater" "Grand" "Giant" "Colossal" "Gargantuan" "Transcendent"
+    AreaLevel >= 65
+    SetFontSize 25
+    SetBorderColor 255 255 255 120
+    SetBackgroundColor 28 81 46 155
+
+    Show
+    BaseType "Flask"
+    SetFontSize 25
+    SetBorderColor 255 255 255 120
+    SetBackgroundColor 28 81 46 155
 
 #=====================
 #Quality Items and Sockets
@@ -113,22 +185,7 @@
     SetBorderColor 20 240 240
     SetBackgroundColor 6 0 60
 
-#=====================
-#Flasks and Charms
-#=====================
-    Show
-    BaseType "Charm"
-    SetFontSize 30
-    #SetTextColor 0 240 190 #Don't change text color as it will interfere with rarity (White Text vs Blue Text)
-    SetBorderColor 0 240 190
-    SetBackgroundColor 20 20 0
 
-    Show
-    BaseType "Flask"
-    SetFontSize 25
-    #SetTextColor 255 255 255 180 #Don't change text color as it will interfere with rarity (White Text vs Blue Text)
-    SetBorderColor 255 255 255 120
-    SetBackgroundColor 28 81 46 155
 
 #=====================
 #Rune
