@@ -36,7 +36,7 @@
     ##############  S Tier - Tink
     Show
     Class Currency
-    BaseType "Mirror of Kalandra" "Perfect Jeweller's Orb"
+    BaseType "Mirror of Kalandra" "Perfect Jeweller's Orb" "Divine Orb"
     SetFontSize 35
     SetTextColor 85 0 255
     SetBorderColor 85 0 255
@@ -55,6 +55,14 @@
     SetBackgroundColor 115 0 255
     PlayAlertSound 3 150
 
+     ##############  B Tier
+    Show
+    Class Currency
+    BaseType "Regal Shard" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
+    SetFontSize 30
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 115 0 255
 
     Show #Greater Essence
     Class Currency
@@ -79,7 +87,7 @@
     SetFontSize 30
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
-    SetBackgroundColor 115 0 255
+    SetBackgroundColor 122 166 255 160
 
 #=====================
 #Armour and Weapons
