@@ -74,7 +74,7 @@
      ##############  B Tier
     Show
     Class Currency
-    BaseType "Regal Shard" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Breach Splinter" "Simulacrum Splinter"
+    BaseType "Regal Shard" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Breach Splinter" "Simulacrum Splinter" "Artifact" "Coinage"
     SetFontSize 30
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
