@@ -18,6 +18,22 @@
 #=====================
     Show
     BaseType == "Gold"
+    StackSize >= 1000
+    SetFontSize 40
+    SetTextColor 235 200 110
+    SetBackgroundColor 0 0 0
+    SetBorderColor 216 180 0
+
+    Show
+    BaseType == "Gold"
+    SetFontSize 30
+    StackSize >= 350
+    SetTextColor 235 200 110
+    SetBackgroundColor 0 0 0
+    SetBorderColor 200 200 200
+
+    Show
+    BaseType == "Gold"
     SetFontSize 30
     SetTextColor 235 200 110
     SetBackgroundColor 0 0 0
