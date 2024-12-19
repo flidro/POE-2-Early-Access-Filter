@@ -52,7 +52,7 @@
     ##############  S Tier - Tink
     Show
     Class Currency
-    BaseType "Mirror of Kalandra" "Perfect Jeweller's Orb" "Divine Orb"
+    BaseType "Mirror of Kalandra" "Perfect Jeweller's Orb" "Divine Orb" "Breachstone"
     SetFontSize 35
     SetTextColor 85 0 255
     SetBorderColor 85 0 255
@@ -74,7 +74,7 @@
      ##############  B Tier
     Show
     Class Currency
-    BaseType "Regal Shard" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
+    BaseType "Regal Shard" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Breach Splinter"
     SetFontSize 30
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
@@ -97,6 +97,30 @@
     SetBorderColor 0 0 0
     SetBackgroundColor 122 166 255 160
 
+    Show
+    Class Currency
+    BaseType "An Audience with the King"
+    SetFontSize 35
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 115 0 255
+    PlayAlertSound 3 150 #####TINK#####
+
+    Show #Fragments
+    Class "Map Fragment"
+    BaseType "Fragment"
+    SetFontSize 35
+    SetTextColor 255 255 255
+    SetBorderColor 255 255 255
+    SetBackgroundColor 115 0 255
+    PlayAlertSound 3 150
+
+    Show #Catch all fragments
+    BaseType "Fragment"
+    SetFontSize 30
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 122 166 255 160
 
     Show #Catch all currency
     Class Currency
