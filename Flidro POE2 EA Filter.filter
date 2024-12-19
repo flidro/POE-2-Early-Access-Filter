@@ -41,14 +41,6 @@
 #=====================
 #Currency
 #=====================
-    Show #Wisdom Scroll
-    BaseType "Scroll of Wisdom"
-    SetFontSize 30
-    SetBorderColor 100 50 30
-    SetBackgroundColor 20 20 0
-
-
-
     ##############  S Tier - Tink
     Show
     Class Currency
