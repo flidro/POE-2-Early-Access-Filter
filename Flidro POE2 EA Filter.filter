@@ -276,6 +276,19 @@
     SetBackgroundColor 150 90 0
     SetBorderColor 180 180 0
 
+
+    Show #Advanced Armor and Weapons ###Smaller in Maps
+    BaseType "Advanced"
+    AreaLevel >= 65
+    SetFontSize 15
+    SetBackgroundColor 45 45 45
+
+    Show #Advanced Armor and Weapons ###Smaller in Maps
+    BaseType "Expert"
+    AreaLevel >= 65
+    SetFontSize 20
+    SetBackgroundColor 100 100 100
+
     Show #Advanced Armor and Weapons
     BaseType "Advanced"
     SetFontSize 30
