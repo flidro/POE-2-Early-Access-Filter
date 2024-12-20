@@ -74,7 +74,7 @@
      ##############  B Tier
     Show
     Class Currency
-    BaseType "Regal Shard" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Artifact" "Coinage"
+    BaseType "Regal Shard" "Chance Shard" "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone"
     SetFontSize 30
     SetTextColor 0 0 0
     SetBorderColor 0 0 0
@@ -88,7 +88,6 @@
     SetBorderColor 255 255 255
     SetBackgroundColor 115 0 255
 
-
     Show #Essence
     Class Currency
     BaseType "Essence"
@@ -97,35 +96,59 @@
     SetBorderColor 0 0 0
     SetBackgroundColor 122 166 255 160
 
-    Show
-    Class Currency
-    BaseType "An Audience with the King"
-    SetFontSize 35
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 115 0 255
-    PlayAlertSound 6 150 #####TINK#####
+    #=====================
+    #Expedition Artifacts
+    #=====================
+         ##############  B Tier
+        Show
+        Class Currency
+        BaseType  "Artifact" "Coinage"
+        SetFontSize 30
+        SetTextColor 176 96 37
+        SetBorderColor 176 96 37
+        SetBackgroundColor 44 44 44
 
-    Show #Fragments
-    Class "Map Fragment"
-    BaseType "Fragment"
-    SetFontSize 35
-    SetTextColor 255 255 255
-    SetBorderColor 255 255 255
-    SetBackgroundColor 180 0 255
-    PlayAlertSound 3 150
 
-    Show #Catch all fragments
-    BaseType "Fragment"
-    SetFontSize 35
-    SetTextColor 255 255 255
-    SetBackgroundColor 180 0 255
+    #=====================
+    #Fragments, Keys, Invitations
+    #=====================
+        Show
+        Class Currency
+        BaseType "An Audience with the King"
+        SetFontSize 35
+        SetTextColor 255 255 255
+        SetBorderColor 255 255 255
+        SetBackgroundColor 115 0 255
+        PlayAlertSound 6 150 #####TINK#####
 
-    Show #Catch all fragments
-    Class "Map Fragment"
-    SetFontSize 35
-    SetTextColor 255 255 255
-    SetBackgroundColor 180 0 255
+        Show #Pinnacle Keys
+        Class "Pinnacle Keys"
+        SetFontSize 35
+        SetTextColor 255 255 255
+        SetBorderColor 255 255 255
+        SetBackgroundColor 180 0 255
+        PlayAlertSound 3 150
+
+        Show #Fragments
+        Class "Map Fragment"
+        BaseType "Fragment"
+        SetFontSize 35
+        SetTextColor 255 255 255
+        SetBorderColor 255 255 255
+        SetBackgroundColor 180 0 255
+        PlayAlertSound 3 150
+
+        Show #Catch all fragments
+        BaseType "Fragment"
+        SetFontSize 35
+        SetTextColor 255 255 255
+        SetBackgroundColor 180 0 255
+
+        Show #Catch all fragments
+        Class "Map Fragment"
+        SetFontSize 35
+        SetTextColor 255 255 255
+        SetBackgroundColor 180 0 255
 
 
     #=====================
@@ -278,12 +301,14 @@
 
 
     Show #Advanced Armor and Weapons ###Smaller in Maps
+    Rarity < Rare
     BaseType "Advanced"
     AreaLevel >= 65
-    SetFontSize 15
+    SetFontSize 20
     SetBackgroundColor 45 45 45
 
     Show #Advanced Armor and Weapons ###Smaller in Maps
+    Rarity < Rare
     BaseType "Expert"
     AreaLevel >= 65
     SetFontSize 20
