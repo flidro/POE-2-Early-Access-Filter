@@ -395,11 +395,23 @@
 #Sanctum, Ultimatum, and Expedition Logbooks
 #=====================
     Show
-    BaseType "Djinn Barya" "Inscribed Ultimatum" "Expedition Logbook"
+    BaseType "Barya" "Inscribed Ultimatum" "Expedition Logbook"
     SetFontSize 35
     SetBorderColor 163 53 238
     SetTextColor 163 53 238
     MinimapIcon 1 Yellow UpsideDownHouse
+
+#=====================
+#Sanctum Relics
+#=====================
+    Show
+    BaseType "Relic"
+    SetFontSize 35
+    SetBorderColor 0 240 190
+    SetTextColor 0 240 190
+    SetBackgroundColor 0 20 0
+    MinimapIcon 1 Blue Diamond
+    PlayEffect Blue Temp
 
 
 #=====================
