@@ -370,7 +370,7 @@
 #Rune
 #=====================
     Show
-    BaseType "Rune"
+    BaseType "Rune" "Soul Core"
     SetFontSize 30
     SetTextColor 0 204 255
     SetBorderColor 0 0 0
