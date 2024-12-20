@@ -223,42 +223,42 @@
     Rarity < Rare
     BaseType == "Expert Hexer's Robe" "Expert Keth Raiment" "Expert Altar Robe" "Expert Feathered Tiara"   "Expert Intricate Gloves"  "Expert Feathered Sandals" "Expert Plumed Focus"
     SetFontSize 30
-    SetBackgroundColor 43 43 100 140
+    SetBackgroundColor 43 43 100 200
     SetBorderColor 50 50 150
 
     Show ###Best Expert Evasion Bases###
     Rarity < Rare
     BaseType ==  "Expert Studded Vest" "Expert Pathfinder Coat" "Expert Serpentscale Coat" "Expert Hunter Hood" "Expert Spined Bracers"  "Expert Lizardscale Boots" "Expert Edged Buckler"
     SetFontSize 30
-    SetBackgroundColor 4 67 4 140
+    SetBackgroundColor 4 67 4
     SetBorderColor 0 150 0
 
     Show ###Best Expert Armour Bases###
     Rarity < Rare
     BaseType ==  "Expert Iron Cuirass" "Expert Steel Plate" "Expert Vaal Cuirass"  "Expert Elite Greathelm" "Expert Moulded Mitts" "Expert Stone Greaves"  "Expert Stone Tower Shield"
     SetFontSize 30
-    SetBackgroundColor 100 43 43 140
+    SetBackgroundColor 100 43 43
     SetBorderColor 150 50 50
 
     Show ###Best Expert Energy Shield/ Evasion Bases###
     Rarity < Rare
     BaseType ==  "Expert Waxed Jacket" "Expert Wayfarer Jacket" "Expert Scalper's Jacket" "Expert Tribal Mask"  "Expert Spiral Wraps"  "Expert Hunting Shoes"
     SetFontSize 30
-    SetBackgroundColor 51 255 255 100
+    SetBackgroundColor 51 255 255 140
     SetBorderColor 153 255 255
 
     Show ###Best Expert Energy Shield/ Armour Bases###
     Rarity < Rare
     BaseType ==  "Expert Pelt Mantle" "Expert Shaman Mantle" "Expert Sacrificial Mantle" "Expert Heavy Crown"   "Expert Goldcast Cuffs" "Expert Pelt Leggings" "Expert Omen Crest Shield"
     SetFontSize 30
-    SetBackgroundColor 111 67 117 140
+    SetBackgroundColor 111 67 117
     SetBorderColor 150 50 150
 
     Show ###Best Expert Evasion/ Armour Bases###
     Rarity < Rare
     BaseType ==  "Expert Scale Mail" "Expert Cloaked Mail" "Expert Rogue Armour"  "Expert Shielded Helm" "Expert Doubled Gauntlets"  "Expert Stacked Sabatons"  "Expert Feathered Targe"
     SetFontSize 30
-    SetBackgroundColor 150 90 0 140
+    SetBackgroundColor 150 90 0
     SetBorderColor 180 180 0
 
     Show #Advanced Armor and Weapons
