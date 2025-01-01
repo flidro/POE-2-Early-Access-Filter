@@ -594,6 +594,25 @@
 #=====================
 #Maps
 #=====================
+
+    Show
+    BaseType "Waystone"
+    WaystoneTier >= 11
+    SetFontSize 35
+    SetBorderColor 255 255 255
+    SetBackgroundColor 153 10 10
+    MinimapIcon 1 White Square
+    PlayEffect White
+
+    Show
+    BaseType "Waystone"
+    WaystoneTier >= 5
+    SetFontSize 30
+    SetBorderColor 255 255 255
+    SetBackgroundColor 230 230 150
+    MinimapIcon 1 White Square
+    PlayEffect White
+
     Show
     BaseType "Waystone"
     SetFontSize 30
