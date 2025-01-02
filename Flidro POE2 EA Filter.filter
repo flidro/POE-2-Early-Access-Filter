@@ -595,31 +595,143 @@
 #Maps
 #=====================
 
-    Show
-    BaseType "Waystone"
-    WaystoneTier >= 11
-    SetFontSize 35
-    SetBorderColor 255 255 255
-    SetBackgroundColor 153 10 10
-    MinimapIcon 1 White Square
-    PlayEffect White
+    #=====================
+    #Red Corrupted T16 (+1 level) Maps
+    #=====================
+        Show #T16 (Corrupted) RARE
+        BaseType "Waystone"
+        Rarity == Rare
+        WaystoneTier >= 16
+        SetFontSize 35
+        SetBorderColor 255 255 0
+        SetTextColor 255 255 255
+        SetBackgroundColor 255 10 10
+        MinimapIcon 1 Red Square
+        PlayEffect Orange
 
-    Show
-    BaseType "Waystone"
-    WaystoneTier >= 5
-    SetFontSize 30
-    SetBorderColor 255 255 255
-    SetBackgroundColor 230 230 150
-    MinimapIcon 1 White Square
-    PlayEffect White
+        Show #T16 (Corrupted) MAGIC
+        BaseType "Waystone"
+        Rarity == Magic
+        WaystoneTier >= 16
+        SetFontSize 35
+        SetBorderColor 100 100 255
+        SetTextColor 255 255 255
+        SetBackgroundColor 255 10 10
+        MinimapIcon 1 Red Square
+        PlayEffect Orange
 
-    Show
-    BaseType "Waystone"
-    SetFontSize 30
-    SetBorderColor 255 255 255
-    SetBackgroundColor 70 70 70
-    MinimapIcon 1 White Square
-    PlayEffect White
+        Show #T16 (Corrupted) and fallback
+        BaseType "Waystone"
+        WaystoneTier >= 16
+        SetFontSize 35
+        SetBorderColor 255 255 255
+        SetTextColor 255 255 255
+        SetBackgroundColor 255 10 10
+        MinimapIcon 1 Red Square
+        PlayEffect Orange
+
+    #=====================
+    #Red Maps
+    #=====================
+        Show #T11-15 (red)
+        BaseType "Waystone"
+        Rarity == Rare
+        WaystoneTier >= 11
+        SetFontSize 35
+        SetBorderColor 255 255 0
+        SetTextColor 255 255 255
+        SetBackgroundColor 153 10 10
+        MinimapIcon 1 Red Square
+        PlayEffect Yellow
+
+        Show #T11-15 (red) MAGIC
+        BaseType "Waystone"
+        Rarity == Magic
+        WaystoneTier >= 11
+        SetFontSize 35
+        SetBorderColor 100 100 255
+        SetTextColor 255 255 255
+        SetBackgroundColor 153 10 10
+        MinimapIcon 1 Red Square
+        PlayEffect Yellow
+
+        Show #T11-15 (red) and fallback
+        BaseType "Waystone"
+        WaystoneTier >= 11
+        SetFontSize 35
+        SetBorderColor 255 255 255
+        SetTextColor 255 255 255
+        SetBackgroundColor 153 10 10
+        MinimapIcon 1 Red Square
+        PlayEffect Yellow
+
+
+    #=====================
+    #Yellow Maps
+    #=====================
+        Show #T5-10 (Yellow) RARE
+        BaseType "Waystone"
+        Rarity == Rare
+        WaystoneTier >= 5
+        SetFontSize 30
+        SetBorderColor 255 255 0
+        SetTextColor 255 255 255
+        SetBackgroundColor 70 70 0
+        MinimapIcon 1 Yellow Square
+        PlayEffect White
+
+        Show #T5-10 (Yellow) MAGIC
+        BaseType "Waystone"
+        Rarity == Magic
+        WaystoneTier >= 5
+        SetFontSize 30
+        SetBorderColor 100 100 255
+        SetTextColor 255 255 255
+        SetBackgroundColor 70 70 0
+        MinimapIcon 1 Yellow Square
+        PlayEffect White
+
+        Show #T5-10 (Yellow) and fallback
+        BaseType "Waystone"
+        WaystoneTier >= 5
+        SetFontSize 30
+        SetBorderColor 255 255 255
+        SetTextColor 255 255 255
+        SetBackgroundColor 70 70 0
+        MinimapIcon 1 Yellow Square
+        PlayEffect White
+
+    #=====================
+    #White Maps
+    #=====================
+        Show #T1-4 RARE
+        BaseType "Waystone"
+        Rarity == Rare
+        SetFontSize 30
+        SetBorderColor 255 255 0
+        SetTextColor 255 255 255
+        SetBackgroundColor 70 70 70
+        MinimapIcon 1 White Square
+        PlayEffect White
+
+        Show #T1-4 MAGIC
+        BaseType "Waystone"
+        Rarity == Magic
+        SetFontSize 30
+        SetBorderColor 100 100 255
+        SetTextColor 255 255 255
+        SetBackgroundColor 70 70 70
+        MinimapIcon 1 White Square
+        PlayEffect White
+
+        Show #T1-4 and fallback
+        BaseType "Waystone"
+        SetFontSize 30
+        SetBorderColor 255 255 255
+        SetTextColor 255 255 255
+        SetBackgroundColor 70 70 70
+        MinimapIcon 1 White Square
+        PlayEffect White
 
     Show
     BaseType "Tablet"
